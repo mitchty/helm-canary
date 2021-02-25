@@ -1,0 +1,6 @@
+# foo
+apiVersion: v2
+name: helm-canary
+description: Simple Flask demo app
+version: 0.0.1
+appVersion: 0.0.1

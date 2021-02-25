@@ -1,0 +1,26 @@
+replication: true
+replicas: 1
+frontend:
+  ingress:
+    enabled: true
+    className: "blah"
+    hosts:
+      - host: demo.home.arpa
+        paths:
+          - path: /
+            type: Prefix
+  service:
+    port: 8888
+    type: ClusterIP
+  label: helm-canary
+  requests:
+    cpu: 100m
+    memory: 100Mi
+  image: ghcr.io/mitchty/helm-canary
+redis:
+  image:
+    master: redis
+    slave: redis
+  requests:
+    cpu: 100m
+    memory: 100Mi
