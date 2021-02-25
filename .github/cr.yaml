@@ -1,0 +1,4 @@
+owner: mitchty
+git-repo: helm-canary
+git-base-url: https://api.github.com/
+git-upload-url: https://uploads.github.com/

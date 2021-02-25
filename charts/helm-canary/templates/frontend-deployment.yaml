@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Values.frontend.label }}
+      tier: frontend
+  replicas: {{ .Values.replicas }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.frontend.label }}
+        tier: frontend
+    spec:
+      containers:
+      - name: {{ .Values.frontend.label }}
+        image: {{ .Values.frontend.image }}
+        resources:
+          requests:
+            memory: 100Mi
+            cpu: 100m
+        ports:
+        - containerPort: 80
