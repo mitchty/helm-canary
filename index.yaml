@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  helm-canary:
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2024-08-21T15:34:15.077344117Z"
+    description: Simple Flask demo app
+    digest: f886bf36d08c66a84911571ad0efff0d858a86e6522b78407c93a2c0ce62fa4c
+    name: helm-canary
+    urls:
+    - https://github.com/mitchty/helm-canary/releases/download/helm-canary-0.0.2/helm-canary-0.0.2.tgz
+    version: 0.0.2
+generated: "2024-08-21T15:34:15.077357903Z"
