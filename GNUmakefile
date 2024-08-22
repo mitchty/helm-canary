@@ -22,7 +22,7 @@ docker:
 
 .PHONY: upgrade
 upgrade:
-       cd app && $(PUR) -r requirements.txt
+	cd app && $(PUR) -r requirements.txt
 
 .PHONY: clean
 clean:
