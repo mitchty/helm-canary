@@ -1,3 +1,4 @@
+# Text inserted to force action to rebuild
 apiVersion: v2
 name: helm-canary
 description: Simple Flask demo app
