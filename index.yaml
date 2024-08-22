@@ -28,4 +28,13 @@ entries:
     urls:
     - https://github.com/mitchty/helm-canary/releases/download/helm-canary-0.0.2/helm-canary-0.0.2.tgz
     version: 0.0.2
-generated: "2024-08-21T15:47:59.315782224Z"
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2024-08-22T14:57:57.618793069Z"
+    description: Simple Flask demo app
+    digest: 32a8a0a3fdf7e67b365690313a70ce2bee52e44ad91c253e82ce7847480b564c
+    name: helm-canary
+    urls:
+    - https://github.com/mitchty/helm-canary/releases/download/helm-canary-0.0.0/helm-canary-0.0.0.tgz
+    version: 0.0.0
+generated: "2024-08-22T14:57:57.618845147Z"
