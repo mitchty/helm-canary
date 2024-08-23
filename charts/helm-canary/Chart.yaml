@@ -1,6 +1,21 @@
-# Text inserted to force action to rebuild
 apiVersion: v2
 name: helm-canary
-description: Simple Flask demo app
-version: 0.0.0
-appVersion: 0.0.0
+description: Simple Flask helm canary application
+
+type: application
+
+version: "0.0.1"
+
+# Earlier should work as well
+appVersion: "0.0.3"
+
+kubeVersion: "^1.16.0-0"
+home: https://todo
+icon: https://todo
+keywords:
+  - flask
+sources:
+  - https://github.com/mitchty/helm-canary
+maintainers:
+  - name: mitchty
+    email: todo
