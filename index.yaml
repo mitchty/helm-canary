@@ -29,6 +29,26 @@ entries:
     - https://github.com/mitchty/helm-canary/releases/download/helm-canary-0.0.2/helm-canary-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2024-08-23T23:12:53.365819308Z"
+    description: Simple Flask helm canary application
+    digest: 9a6b225ebea2f0efd04414515518196657a6e9193aa8ad603451b902eea84c79
+    home: https://todo
+    icon: https://todo
+    keywords:
+    - flask
+    kubeVersion: ^1.16.0-0
+    maintainers:
+    - email: todo
+      name: mitchty
+    name: helm-canary
+    sources:
+    - https://github.com/mitchty/helm-canary
+    type: application
+    urls:
+    - https://github.com/mitchty/helm-canary/releases/download/helm-canary-0.0.1/helm-canary-0.0.1.tgz
+    version: 0.0.1
+  - apiVersion: v2
     appVersion: 0.0.0
     created: "2024-08-22T14:57:57.618793069Z"
     description: Simple Flask demo app
@@ -37,4 +57,4 @@ entries:
     urls:
     - https://github.com/mitchty/helm-canary/releases/download/helm-canary-0.0.0/helm-canary-0.0.0.tgz
     version: 0.0.0
-generated: "2024-08-22T14:57:57.618845147Z"
+generated: "2024-08-23T23:12:53.365838524Z"
