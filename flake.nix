@@ -1,16 +1,15 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
   };
 
   outputs =
-    {
-      self,
-      flake-utils,
-      nixpkgs,
-      ...
+    { self
+    , flake-utils
+    , nixpkgs
+    , ...
     }: {
-    devShells.x86_64-linux.default =
+      devShells.x86_64-linux.default =
         let
           pkgs = import nixpkgs {
             system = "x86_64-linux";
