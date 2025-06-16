@@ -4,7 +4,7 @@ description: Simple Flask helm canary application
 
 type: application
 
-version: "0.0.1"
+version: "0.0.2"
 
 # Earlier should work as well
 appVersion: "0.0.4"
